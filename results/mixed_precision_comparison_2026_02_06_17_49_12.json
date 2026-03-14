@@ -1,0 +1,80 @@
+{
+  "conservative": {
+    "config": {
+      "attention": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      },
+      "ffn": {
+        "input_precision": 8,
+        "weight_precision": 7,
+        "adc_precision": 7
+      },
+      "embedding": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      },
+      "head": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      }
+    },
+    "accuracy": 0.0,
+    "status": "success"
+  },
+  "balanced": {
+    "config": {
+      "attention": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      },
+      "ffn": {
+        "input_precision": 7,
+        "weight_precision": 7,
+        "adc_precision": 6
+      },
+      "embedding": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      },
+      "head": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      }
+    },
+    "accuracy": 0.0,
+    "status": "success"
+  },
+  "aggressive": {
+    "config": {
+      "attention": {
+        "input_precision": 7,
+        "weight_precision": 7,
+        "adc_precision": 6
+      },
+      "ffn": {
+        "input_precision": 6,
+        "weight_precision": 6,
+        "adc_precision": 6
+      },
+      "embedding": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      },
+      "head": {
+        "input_precision": 8,
+        "weight_precision": 8,
+        "adc_precision": 7
+      }
+    },
+    "accuracy": 0.0,
+    "status": "success"
+  }
+}

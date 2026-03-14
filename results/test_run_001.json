@@ -1,0 +1,26 @@
+{
+  "run_id": "test_run_001",
+  "timestamp": "2026-02-02T17:18:12.421783",
+  "log_file": "/tmp/tmpx606xivb.txt",
+  "parameters": {
+    "model": "vgg8",
+    "dataset": "cifar10"
+  },
+  "metrics": {
+    "accuracy": 12.0,
+    "test_loss": 2.3030571937561035,
+    "chip_area_um2": 12345678.9,
+    "read_dynamic_energy_pJ": 61128400.0,
+    "leakage_power_uW": 2669.06,
+    "leakage_energy_pJ": 500693.0,
+    "latency_ns": 187591.0,
+    "tops_per_w": 16.3835,
+    "tops": 6.56659,
+    "fps": 5330.74,
+    "tops_per_mm2": 0.0545432,
+    "sub_array": "[128,128]",
+    "parallel_read": 128,
+    "adc_precision": 7,
+    "bitcell": 1
+  }
+}

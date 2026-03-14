@@ -1,0 +1,670 @@
+
+Loading pretrained swin_t for ImageNet from Torch model hub...
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMAdaptiveAvgPool2d with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+Call .cuda() if running on GPU after loading calibrated amax.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+
+Loading pretrained swin_t for ImageNet from Torch model hub...
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMAdaptiveAvgPool2d with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Set amax to NaN!
+TransCIM Optimization Summary:
+  architecture_type: Swin
+  architecture_aware_mapping: 1
+  mixed_precision: 1
+  precision_preset: conservative
+  attention_optimization: 1
+  attention_config: {'use_qkt_optimization': True, 'use_softmax_approx': True, 'softmax_mode': 'hybrid'}
+Running inference with detailed hardware simulation...

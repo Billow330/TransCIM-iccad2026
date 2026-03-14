@@ -1,0 +1,294 @@
+NeuroSim Inference Run
+Run ID: vgg8_cifar10_20260203_173133
+Timestamp: 2026-02-03T17:31:33.078383
+Command: /usr/bin/python3 inference.py --model vgg8 --dataset cifar10 --bitcell 1 --sub_array [128,128] --mem_type resistive --adc_precision 7 --num_batches 1 --data_path ./datasets/ --hardware 1 --ppa 1 --mem_states_file mem_states.csv --weight_precision 8 --input_precision 8 --parallel_read 128
+================================================================================
+
+WARNING: Logging before flag parsing goes to stderr.
+I0203 17:31:37.509828 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.510140 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.510221 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.692774 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.693167 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.693222 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.694861 140280677050176 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+I0203 17:31:37.697445 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.697530 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.697577 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.702517 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.702595 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.702638 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.703513 140280677050176 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+I0203 17:31:37.711159 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.711254 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.711299 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.726183 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0203 17:31:37.726261 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0203 17:31:37.726304 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0203 17:31:37.727172 140280677050176 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+I0203 17:31:37.777334 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0203 17:31:37.777441 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0203 17:31:37.777486 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0203 17:31:37.778585 140280677050176 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0203 17:31:37.778663 140280677050176 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0203 17:31:37.778707 140280677050176 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=400/bitcell=1/calib_batch_size=128/dac_precision=1/dataset=cifar10/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=vgg8/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+=================FLAGS==================
+dataset: cifar10
+model: vgg8
+data_path: ./datasets/
+model_path: ./models/
+test_name: test
+mode: TensorRT
+gpu: 0
+batch_size: 400
+calib_batch_size: 128
+seed: 1234
+logdir: log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=400/bitcell=1/calib_batch_size=128/dac_precision=1/dataset=cifar10/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=vgg8/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+hardware: 1
+ppa: 1
+num_batches: 1
+sub_array: [128, 128]
+parallel_read: 128
+weight_precision: 8
+input_precision: 8
+dac_precision: 1
+adc_precision: 7
+bitcell: 1
+mem_type: resistive
+off_state: 0.006
+on_state: 1.02e-11
+mem_states_file: mem_states.csv
+vdd: 1
+read_noise: 0.0
+output_noise: 0.0
+output_noise_file: 
+t: 1
+v: 0.0
+v_list: [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]
+detect: 0
+target: 0.0
+rate_stuck_0: 0.0
+rate_stuck_1: 0.0
+input_calib_method: max
+weight_calib_method: max
+adc_calib_method: max
+input_axis: None
+weight_axis: 0
+adc_axis: None
+adc_quant_method: scale
+optimize_adc: 0
+adc_enable: 1
+logger: <bound method Logger.info of <pytorch_quantization.utils.misc.Logger object at 0x7f95a33e17c0>>
+========================================
+
+Running in-memory computing functional simulation of vgg8 on cifar10 dataset...
+Building CIFAR-10 data loader with 1 workers
+Files already downloaded and verified
+Building CIFAR-10 data loader with 1 workers
+Files already downloaded and verified
+
+Warning: Pretrained model ./models/vgg8_cifar10.pth not found. Using randomly initialized weights.
+VGG(
+  (layers): Sequential(
+    (0): CIMConv2d(
+      3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (1): ReLU()
+    (2): CIMConv2d(
+      128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (3): ReLU()
+    (4): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (5): CIMConv2d(
+      128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (6): ReLU()
+    (7): CIMConv2d(
+      256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (8): ReLU()
+    (9): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (10): CIMConv2d(
+      256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (11): ReLU()
+    (12): CIMConv2d(
+      512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (13): ReLU()
+    (14): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+  )
+  (classifier): Sequential(
+    (0): CIMLinear(
+      in_features=8192, out_features=1024, bias=True
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (1): ReLU()
+    (2): CIMLinear(
+      in_features=1024, out_features=10, bias=True
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+  )
+)
+Evaluating baseline model...
+
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]Test Accuracy of the model on 400 test images: 12.0 %
+Average Test loss: 2.3030481338500977
+
+--------------------------------------------
+evaluation time: 0.5347890853881836
+Quantizing inputs and weights...
+Collecting histograms...
+
+
+
+  0%|          | 0/2 [00:00<?, ?it/s]I0203 17:31:38.478657 140280677050176 max.py:61] Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+
+ 50%|█████     | 1/2 [00:00<00:00,  7.69it/s]
+100%|██████████| 2/2 [00:00<00:00,  9.38it/s]
+W0203 17:31:38.656719 140280677050176 tensor_quantizer.py:239] Call .cuda() if running on GPU after loading calibrated amax.
+Call .cuda() if running on GPU after loading calibrated amax.
+
+Computing amax... 
+
+Finished quantizing inputs and weights.
+Evaluating input and weight quantized model...
+
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+I0203 17:31:38.937068 140280677050176 misc.py:32] Running inference with detailed hardware simulation...
+Running inference with detailed hardware simulation...
+Test Accuracy of the model on 400 test images: 12.0 %
+Average Test loss: 2.303046941757202
+
+--------------------------------------------
+evaluation time: 0.20133137702941895
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:16<?, ?it/s]User assigned speed-up degree is larger than the upper bound (where no idle period during the whole process) 
+The speed-up degree is auto-assigned as the upper bound (where no idle period during the whole process) 
+------------------------------ FloorPlan --------------------------------
+
+Tile and PE size are optimized to maximize memory utilization ( = memory mapped by synapse / total memory on chip)
+
+Desired Conventional Mapped Tile Storage Size: 1024x1024
+Desired Conventional PE Storage Size: 512x512
+Desired Novel Mapped Tile Storage Size: 9x512x512
+User-defined SubArray Size: 128x128
+
+----------------- # of tile used for each layer -----------------
+layer1: 2
+layer2: 8
+layer3: 4
+layer4: 8
+layer5: 8
+layer6: 8
+layer7: 64
+layer8: 1
+
+----------------- Speed-up of each layer ------------------
+layer1: 16
+layer2: 16
+layer3: 4
+layer4: 4
+layer5: 2
+layer6: 1
+layer7: 1
+layer8: 8
+
+----------------- Utilization of each layer ------------------
+layer1: 0.210938
+layer2: 1
+layer3: 1
+layer4: 1
+layer5: 1
+layer6: 1
+layer7: 1
+layer8: 0.625
+Memory Utilization of Whole Chip: 98.1038 % 
+
+---------------------------- FloorPlan Done ------------------------------
+
+
+
+clkPeriod: 2.39073e-09
+-------------------------------------- Hardware Performance --------------------------------------
+-------------------- Estimation of Layer 1 ----------------------
+layer1's readLatency is: 187591ns
+layer1's readDynamicEnergy is: 1.78633e+06pJ
+layer1's leakagePower is: 0uW
+layer1's leakageEnergy is: 0pJ
+layer1's buffer latency is: 147807ns
+layer1's buffer readDynamicEnergy is: 8519.71pJ
+layer1's ic latency is: 30565.1ns
+layer1's ic readDynamicEnergy is: 403234pJ
+
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 8606.62ns
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 373.551ns
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 178611ns
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 911724pJ

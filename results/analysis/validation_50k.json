@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-04T10:20:19Z",
+    "git_commit": "cddb7d346a9f",
+    "torch": "2.7.1+cu118",
+    "torchvision": "0.22.1+cu118",
+    "calib_size": 1000,
+    "calib_seed": 42,
+    "eval_seed": 42,
+    "num_images": 50000,
+    "batch_size": 64,
+    "mode": "quantized"
+  },
+  "num_images": 50000,
+  "mode": "quantized",
+  "quantized": {
+    "baseline_swin": {
+      "success": true,
+      "elapsed_seconds": 5067.42,
+      "cmd_summary": "/home/gaoft/miniconda3/bin/python3 inference.py --dataset imagenet --data_path /home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet ... --use_architecture_mapping 0 --use_mixed_precision_opt 0 ...",
+      "top1": 91.3343,
+      "top5": 99.1168
+    },
+    "best_accuracy_swin": {
+      "success": true,
+      "elapsed_seconds": 5080.59,
+      "cmd_summary": "/home/gaoft/miniconda3/bin/python3 inference.py --dataset imagenet --data_path /home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet ... --use_architecture_mapping 0 --use_mixed_precision_opt 1 ...",
+      "top1": 91.4622,
+      "top5": 99.0749
+    },
+    "full_opt_swin": {
+      "success": true,
+      "elapsed_seconds": 5061.76,
+      "cmd_summary": "/home/gaoft/miniconda3/bin/python3 inference.py --dataset imagenet --data_path /home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet ... --use_architecture_mapping 1 --use_mixed_precision_opt 1 ...",
+      "top1": 91.4622,
+      "top5": 99.0749
+    },
+    "baseline_vit": {
+      "success": true,
+      "elapsed_seconds": 9594.14,
+      "cmd_summary": "/home/gaoft/miniconda3/bin/python3 inference.py --dataset imagenet --data_path /home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet ... --use_architecture_mapping 0 --use_mixed_precision_opt 0 ...",
+      "top1": 90.5511,
+      "top5": 98.8211
+    },
+    "optimized_vit": {
+      "success": true,
+      "elapsed_seconds": 9602.7,
+      "cmd_summary": "/home/gaoft/miniconda3/bin/python3 inference.py --dataset imagenet --data_path /home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet ... --use_architecture_mapping 1 --use_mixed_precision_opt 1 ...",
+      "top1": 90.5111,
+      "top5": 98.8131
+    }
+  }
+}

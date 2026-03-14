@@ -1,0 +1,17 @@
+{
+  "model": "swin_t",
+  "timestamp": "20260206_165757",
+  "results": [
+    {
+      "config_name": "uniform_8bit",
+      "description": "统一8-bit量化（基准）",
+      "input_precision": 8,
+      "weight_precision": 8,
+      "adc_precision": 7,
+      "accuracy": null,
+      "status": "failed",
+      "error": "'Namespace' object has no attribute 'mem_states_file'"
+    }
+  ],
+  "sensitivity_analysis": {}
+}

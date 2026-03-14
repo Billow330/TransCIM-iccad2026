@@ -1,0 +1,54 @@
+[
+  {
+    "model": "vit_b",
+    "use_transcim": false,
+    "use_mapping": false,
+    "use_mixed_precision": false,
+    "use_attention": false,
+    "success": true,
+    "returncode": 0,
+    "stdout": "ator=MaxCalibrator scale=1.0 quant)\n      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)\n      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)\n    )\n  )\n)\nEvaluating baseline model...\n\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.763162612915039\n\n--------------------------------------------\nevaluation time: 0.662661075592041\nQuantizing inputs and weights...\nCollecting histograms...\n\n\nComputing amax... \n\nFinished quantizing inputs and weights.\nEvaluating input and weight quantized model...\n\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.745223999023438\n\n--------------------------------------------\nevaluation time: 0.5572850704193115\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.653741836547852\n\n--------------------------------------------\nevaluation time: 49.07377076148987\n",
+    "stderr": "to calibrate.\n\n 50%|\u2588\u2588\u2588\u2588\u2588     | 1/2 [00:00<00:00,  1.35it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:01<00:00,  1.86it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:01<00:00,  1.76it/s]\nW0206 19:24:48.676666 140365427954880 tensor_quantizer.py:239] Call .cuda() if running on GPU after loading calibrated amax.\nCall .cuda() if running on GPU after loading calibrated amax.\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n  0%|          | 0/1 [00:00<?, ?it/s]\nI0206 19:24:49.245825 140365427954880 misc.py:32] Architecture Detection:\nArchitecture Detection:\nI0206 19:24:49.246206 140365427954880 misc.py:32]   Model-based: ViT (global attention)\n  Model-based: ViT (global attention)\nI0206 19:24:49.246268 140365427954880 misc.py:32]   CSV-based: ViT (confidence: 0.40)\n  CSV-based: ViT (confidence: 0.40)\nI0206 19:24:49.246336 140365427954880 misc.py:32] Running inference with detailed hardware simulation...\nRunning inference with detailed hardware simulation...\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n  0%|          | 0/1 [00:49<?, ?it/s]\n",
+    "timestamp": "2026-02-06T19:25:39.349253",
+    "description": "Baseline (no TransCIM)"
+  },
+  {
+    "model": "vit_b",
+    "use_transcim": true,
+    "use_mapping": true,
+    "use_mixed_precision": false,
+    "use_attention": false,
+    "success": true,
+    "returncode": 0,
+    "stdout": " 0.6331956386566162\nQuantizing inputs and weights...\nCollecting histograms...\n\n\nComputing amax... \n\nFinished quantizing inputs and weights.\nEvaluating input and weight quantized model...\n\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.745223999023438\n\n--------------------------------------------\nevaluation time: 0.48630809783935547\n============================================================\nTransCIM Optimization Pipeline\n============================================================\n\nStep 1: Architecture Detection\n  Detected: ViT\n  Confidence: 0.40\n\nStep 2: Architecture-Aware Mapping\nApplying architecture-aware mapping for ViT\nMapping strategy: N/A\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.653741836547852\n\n--------------------------------------------\nevaluation time: 48.56412887573242\n",
+    "stderr": "\n  0%|          | 0/1 [00:00<?, ?it/s]\nI0206 19:25:46.542546 139712928994496 misc.py:32] TransCIM Optimization Summary:\nTransCIM Optimization Summary:\nI0206 19:25:46.542830 139712928994496 misc.py:32]   architecture_type: ViT\n  architecture_type: ViT\nI0206 19:25:46.542869 139712928994496 misc.py:32]   architecture_aware_mapping: 1\n  architecture_aware_mapping: 1\nI0206 19:25:46.542896 139712928994496 misc.py:32]   mixed_precision: 0\n  mixed_precision: 0\nI0206 19:25:46.542923 139712928994496 misc.py:32]   precision_preset: None\n  precision_preset: None\nI0206 19:25:46.542947 139712928994496 misc.py:32]   attention_optimization: 0\n  attention_optimization: 0\nI0206 19:25:46.542971 139712928994496 misc.py:32]   attention_config: None\n  attention_config: None\nI0206 19:25:46.542999 139712928994496 misc.py:32] Running inference with detailed hardware simulation...\nRunning inference with detailed hardware simulation...\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n  0%|          | 0/1 [00:48<?, ?it/s]\n",
+    "timestamp": "2026-02-06T19:26:36.046217",
+    "description": "Architecture-aware mapping only"
+  },
+  {
+    "model": "vit_b",
+    "use_transcim": true,
+    "use_mapping": true,
+    "use_mixed_precision": true,
+    "use_attention": false,
+    "success": true,
+    "returncode": 0,
+    "stdout": "ecting histograms...\n\n\nComputing amax... \n\nFinished quantizing inputs and weights.\nEvaluating input and weight quantized model...\n\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.734529495239258\n\n--------------------------------------------\nevaluation time: 0.4874837398529053\n\n\u6b65\u9aa42: \u5e94\u7528\u5206\u5c42\u7cbe\u5ea6\u914d\u7f6e...\n  \u5c42 conv_proj: attention -> input=8, weight=8, adc=7\n  \u5c42 encoder.layers.encoder_layer_0.mlp.0: ffn -> input=7, weight=7, adc=6\n  \u5c42 encoder.layers.encoder_layer_0.mlp.3: ffn -> input=7, weight=7, adc=6\n  \u5c42 encoder.layers.encoder_layer_1.mlp.0: ffn -> input=7, weight=7, adc=6\n  \u5c42 encoder.layers.encoder_layer_1.mlp.3: ffn -> input=7, weight=7, adc=6\n\u5df2\u5e94\u7528\u914d\u7f6e\u5230 26 \u4e2a\u5c42\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.638955116271973\n\n--------------------------------------------\nevaluation time: 48.77507734298706\n",
+    "stderr": "        | 0/1 [00:00<?, ?it/s]\nI0206 19:26:46.200723 140389306369216 misc.py:32] TransCIM Optimization Summary:\nTransCIM Optimization Summary:\nI0206 19:26:46.200874 140389306369216 misc.py:32]   architecture_type: ViT\n  architecture_type: ViT\nI0206 19:26:46.200911 140389306369216 misc.py:32]   architecture_aware_mapping: 1\n  architecture_aware_mapping: 1\nI0206 19:26:46.200946 140389306369216 misc.py:32]   mixed_precision: 1\n  mixed_precision: 1\nI0206 19:26:46.200973 140389306369216 misc.py:32]   precision_preset: balanced\n  precision_preset: balanced\nI0206 19:26:46.200999 140389306369216 misc.py:32]   attention_optimization: 0\n  attention_optimization: 0\nI0206 19:26:46.201025 140389306369216 misc.py:32]   attention_config: None\n  attention_config: None\nI0206 19:26:46.201053 140389306369216 misc.py:32] Running inference with detailed hardware simulation...\nRunning inference with detailed hardware simulation...\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n  0%|          | 0/1 [00:48<?, ?it/s]\n",
+    "timestamp": "2026-02-06T19:27:35.902250",
+    "description": "Mapping + Mixed Precision"
+  },
+  {
+    "model": "vit_b",
+    "use_transcim": true,
+    "use_mapping": true,
+    "use_mixed_precision": false,
+    "use_attention": true,
+    "success": true,
+    "returncode": 0,
+    "stdout": "8.745223999023438\n\n--------------------------------------------\nevaluation time: 0.5378906726837158\n============================================================\nTransCIM Optimization Pipeline\n============================================================\n\nStep 1: Architecture Detection\n  Detected: ViT\n  Confidence: 0.40\n\nStep 2: Architecture-Aware Mapping\nApplying architecture-aware mapping for ViT\nMapping strategy: N/A\n\nStep 4: Attention Optimization\nAttention optimization ready for ViT\n  Optimization stats: {'architecture': 'ViT', 'qkt_optimization': True, 'softmax_approximation': True, 'data_reuse': True, 'operations': 6400, 'memory_access': 1280, 'memory_reduction': 63.0}\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 400 test images: 0.0 %\nAverage Test loss: 8.653741836547852\n\n--------------------------------------------\nevaluation time: 48.91619253158569\n",
+    "stderr": "27:43.262295 140536950109376 misc.py:32]   architecture_type: ViT\n  architecture_type: ViT\nI0206 19:27:43.262346 140536950109376 misc.py:32]   architecture_aware_mapping: 1\n  architecture_aware_mapping: 1\nI0206 19:27:43.262388 140536950109376 misc.py:32]   mixed_precision: 0\n  mixed_precision: 0\nI0206 19:27:43.262427 140536950109376 misc.py:32]   precision_preset: None\n  precision_preset: None\nI0206 19:27:43.262463 140536950109376 misc.py:32]   attention_optimization: 1\n  attention_optimization: 1\nI0206 19:27:43.262500 140536950109376 misc.py:32]   attention_config: {'use_qkt_optimization': True, 'use_softmax_approx': True, 'softmax_mode': 'hybrid'}\n  attention_config: {'use_qkt_optimization': True, 'use_softmax_approx': True, 'softmax_mode': 'hybrid'}\nI0206 19:27:43.262540 140536950109376 misc.py:32] Running inference with detailed hardware simulation...\nRunning inference with detailed hardware simulation...\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n  0%|          | 0/1 [00:48<?, ?it/s]\n",
+    "timestamp": "2026-02-06T19:28:33.113755",
+    "description": "Mapping + Attention optimization"
+  }
+]

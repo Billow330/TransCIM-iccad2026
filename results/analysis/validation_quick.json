@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-02-09T20:48:48.681326",
+  "note": "Quick validation: Sample size impact (64 vs 256 images)",
+  "configs": [
+    {
+      "config": "baseline_swin_64",
+      "model": "swin_t",
+      "sample_size": 64,
+      "success": true,
+      "accuracy": 87.5,
+      "latency": null,
+      "elapsed_time": 27.319258213043213,
+      "stdout_tail": "time: 0.6160483360290527\nQuantizing inputs and weights...\nCollecting histograms...\n\n\nComputing amax... \n\nFinished quantizing inputs and weights.\nEvaluating input and weight quantized model...\n\nTest Accuracy of the model on 32 test images: 96.875 %\nAverage Test loss: 0.4046894907951355\n\n--------------------------------------------\nevaluation time: 0.3308675289154053\n============================================================\nTransCIM Optimization Pipeline\n============================================================\n\nStep 1: Architecture Detection\n  Detected: Swin\n  Confidence: 0.60\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 32 test images: 87.5 %\nAverage Test loss: 0.5440086126327515\n\nTest Accuracy of the model on 64 test images: 87.5 %\nAverage Test loss: 1.0483007431030273\n\n--------------------------------------------\nevaluation time: 17.355995178222656\n",
+      "returncode": 0
+    },
+    {
+      "config": "baseline_swin_256",
+      "model": "swin_t",
+      "sample_size": 256,
+      "success": true,
+      "accuracy": 90.625,
+      "latency": null,
+      "elapsed_time": 66.2157678604126,
+      "stdout_tail": "=================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 32 test images: 87.5 %\nAverage Test loss: 0.5440086126327515\n\nTest Accuracy of the model on 64 test images: 87.5 %\nAverage Test loss: 1.0483007431030273\n\nTest Accuracy of the model on 96 test images: 89.58333333333333 %\nAverage Test loss: 1.4073430895805359\n\nTest Accuracy of the model on 128 test images: 91.40625 %\nAverage Test loss: 1.8117444813251495\n\nTest Accuracy of the model on 160 test images: 89.375 %\nAverage Test loss: 2.367035895586014\n\nTest Accuracy of the model on 192 test images: 89.58333333333333 %\nAverage Test loss: 2.678991347551346\n\nTest Accuracy of the model on 224 test images: 89.28571428571429 %\nAverage Test loss: 3.196516305208206\n\nTest Accuracy of the model on 256 test images: 90.625 %\nAverage Test loss: 3.4645154178142548\n\n--------------------------------------------\nevaluation time: 56.542320251464844\n",
+      "returncode": 0
+    },
+    {
+      "config": "best_swin_64",
+      "model": "swin_t",
+      "sample_size": 64,
+      "success": true,
+      "accuracy": 95.3125,
+      "latency": null,
+      "elapsed_time": 30.02689528465271,
+      "stdout_tail": " other -> input=8, weight=8, adc=7\n  \u5c42 features.1.0.attn.qkv: attention -> input=8, weight=8, adc=7\n  \u5c42 features.1.0.attn.proj: attention -> input=8, weight=8, adc=7\n  \u5c42 features.1.0.attn.cpb_mlp.0: attention -> input=8, weight=8, adc=7\n  \u5c42 features.1.0.attn.cpb_mlp.2: attention -> input=8, weight=8, adc=7\n\u5df2\u5e94\u7528\u914d\u7f6e\u5230 78 \u4e2a\u5c42\n\nStep 4: Attention Optimization\nAttention optimization ready for Swin\n  Optimization stats: {'architecture': 'Swin', 'qkt_optimization': True, 'softmax_approximation': True, 'data_reuse': True, 'operations': 6400, 'memory_access': 1280, 'memory_reduction': 63.0}\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 32 test images: 96.875 %\nAverage Test loss: 0.21627476811408997\n\nTest Accuracy of the model on 64 test images: 95.3125 %\nAverage Test loss: 0.5023837983608246\n\n--------------------------------------------\nevaluation time: 17.39468288421631\n",
+      "returncode": 0
+    },
+    {
+      "config": "best_swin_256",
+      "model": "swin_t",
+      "sample_size": 256,
+      "success": true,
+      "accuracy": 89.84375,
+      "latency": null,
+      "elapsed_time": 68.62807631492615,
+      "stdout_tail": ".0}\n\n============================================================\nOptimization Complete!\n============================================================\nTest Accuracy of the model on 32 test images: 96.875 %\nAverage Test loss: 0.21627476811408997\n\nTest Accuracy of the model on 64 test images: 95.3125 %\nAverage Test loss: 0.5023837983608246\n\nTest Accuracy of the model on 96 test images: 90.625 %\nAverage Test loss: 1.088790088891983\n\nTest Accuracy of the model on 128 test images: 89.84375 %\nAverage Test loss: 1.659047693014145\n\nTest Accuracy of the model on 160 test images: 91.25 %\nAverage Test loss: 1.9617619514465332\n\nTest Accuracy of the model on 192 test images: 90.10416666666667 %\nAverage Test loss: 2.3121670484542847\n\nTest Accuracy of the model on 224 test images: 90.625 %\nAverage Test loss: 2.512551099061966\n\nTest Accuracy of the model on 256 test images: 89.84375 %\nAverage Test loss: 3.097473233938217\n\n--------------------------------------------\nevaluation time: 56.651188373565674\n",
+      "returncode": 0
+    }
+  ]
+}

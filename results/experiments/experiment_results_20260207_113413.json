@@ -1,0 +1,306 @@
+[
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_standard_none"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.2608921527863,
+    "timestamp": "2026-02-06T20:34:07.612197"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_standard_qkt_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.261621236801,
+    "timestamp": "2026-02-06T21:34:07.874021"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_standard_softmax_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.4241967201233,
+    "timestamp": "2026-02-06T22:34:08.298331"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_standard_all"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.416049003601,
+    "timestamp": "2026-02-06T23:34:08.714574"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_conservative_none"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.361309528351,
+    "timestamp": "2026-02-07T00:34:09.076073"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_conservative_qkt_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.4330213069916,
+    "timestamp": "2026-02-07T01:34:09.509289"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_conservative_softmax_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.3554973602295,
+    "timestamp": "2026-02-07T02:34:09.864986"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_conservative_all"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.443123102188,
+    "timestamp": "2026-02-07T03:34:10.308295"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_balanced_none"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.3334081172943,
+    "timestamp": "2026-02-07T04:34:10.641937"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_balanced_qkt_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.4102194309235,
+    "timestamp": "2026-02-07T05:34:11.052355"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_balanced_softmax_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.4259417057037,
+    "timestamp": "2026-02-07T06:34:11.478914"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_balanced_all"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.309984445572,
+    "timestamp": "2026-02-07T07:34:11.789096"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_aggressive_none"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.35538482666,
+    "timestamp": "2026-02-07T08:34:12.144692"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_aggressive_qkt_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.3749103546143,
+    "timestamp": "2026-02-07T09:34:12.519802"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_aggressive_softmax_only"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.365954399109,
+    "timestamp": "2026-02-07T10:34:12.885969"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_aggressive_all"
+    },
+    "success": false,
+    "error": "Timeout",
+    "elapsed_time": 3600.44895863533,
+    "timestamp": "2026-02-07T11:34:13.335124"
+  }
+]

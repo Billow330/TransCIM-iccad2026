@@ -1,0 +1,328 @@
+{
+  "total_experiments": 64,
+  "successful": 64,
+  "failed": 0,
+  "total_time": 2457.4914236068726,
+  "configs": {
+    "vit_b_conventional_standard_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_standard_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_standard_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_standard_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_conservative_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_conservative_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_conservative_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_conservative_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_balanced_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_balanced_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_balanced_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_balanced_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_aggressive_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_aggressive_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_aggressive_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_conventional_aggressive_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_standard_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_standard_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_standard_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_standard_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_conservative_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_conservative_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_conservative_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_conservative_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_balanced_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_balanced_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_balanced_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_balanced_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_aggressive_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_aggressive_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_aggressive_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "vit_b_architecture_aware_aggressive_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_standard_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_standard_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_standard_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_standard_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_conservative_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_conservative_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_conservative_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_conservative_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_balanced_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_balanced_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_balanced_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_balanced_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_aggressive_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_aggressive_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_aggressive_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_conventional_aggressive_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_standard_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_standard_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_standard_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_standard_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_conservative_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_conservative_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_conservative_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_conservative_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_balanced_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_balanced_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_balanced_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_balanced_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_aggressive_none": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_aggressive_qkt_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_aggressive_softmax_only": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    },
+    "swin_t_architecture_aware_aggressive_all": {
+      "count": 1,
+      "successful": 1,
+      "failed": 0
+    }
+  }
+}

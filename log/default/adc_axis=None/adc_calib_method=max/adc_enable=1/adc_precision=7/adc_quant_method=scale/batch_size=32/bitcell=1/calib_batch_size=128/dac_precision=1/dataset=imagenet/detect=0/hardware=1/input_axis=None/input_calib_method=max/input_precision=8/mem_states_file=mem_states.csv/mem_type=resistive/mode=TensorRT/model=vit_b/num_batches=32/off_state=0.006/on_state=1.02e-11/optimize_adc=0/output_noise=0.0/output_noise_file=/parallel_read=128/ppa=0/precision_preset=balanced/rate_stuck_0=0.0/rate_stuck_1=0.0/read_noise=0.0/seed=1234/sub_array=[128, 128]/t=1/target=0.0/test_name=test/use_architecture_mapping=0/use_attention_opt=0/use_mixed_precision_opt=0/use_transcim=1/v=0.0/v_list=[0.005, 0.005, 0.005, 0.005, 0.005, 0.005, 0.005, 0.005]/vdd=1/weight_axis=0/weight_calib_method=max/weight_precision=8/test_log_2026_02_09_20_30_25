@@ -1,0 +1,90 @@
+
+Loading pretrained vit_b for ImageNet from Torch model hub...
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+Call .cuda() if running on GPU after loading calibrated amax.
+TransCIM Optimization Summary:
+  architecture_type: ViT
+  architecture_aware_mapping: 0
+  mixed_precision: 0
+  precision_preset: None
+  attention_optimization: 0
+  attention_config: None
+Running inference with detailed hardware simulation...

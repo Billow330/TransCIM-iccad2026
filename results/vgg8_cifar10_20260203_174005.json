@@ -1,0 +1,27 @@
+{
+  "run_id": "vgg8_cifar10_20260203_174005",
+  "timestamp": "2026-02-03T17:43:45.879971",
+  "log_file": "log/run_vgg8_cifar10_20260203_174005.txt",
+  "parameters": {
+    "model": "vgg8",
+    "dataset": "cifar10",
+    "mem_type": "resistive"
+  },
+  "metrics": {
+    "accuracy": 12.0,
+    "test_loss": 2.3030481338500977,
+    "chip_area_um2": null,
+    "read_dynamic_energy_pJ": 61128400.0,
+    "leakage_power_uW": 2669.06,
+    "leakage_energy_pJ": 500693.0,
+    "latency_ns": 187591.0,
+    "tops_per_w": 16.3835,
+    "tops": 6.56659,
+    "fps": 5330.74,
+    "tops_per_mm2": 0.0545432,
+    "sub_array": "[128,128]",
+    "parallel_read": 128,
+    "adc_precision": 7,
+    "bitcell": 1
+  }
+}

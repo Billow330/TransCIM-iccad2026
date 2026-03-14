@@ -1,0 +1,14 @@
+{
+  "input_size": 224,
+  "models": {
+    "vit_b_16": {
+      "total_gflops": 17.6,
+      "source": "ViT paper, 224x224"
+    },
+    "swin_t": {
+      "total_gflops": 4.5,
+      "source": "Swin paper, 224x224"
+    }
+  },
+  "note": "Reference values from papers (install fvcore or thop for measured values)"
+}

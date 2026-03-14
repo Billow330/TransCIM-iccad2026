@@ -1,0 +1,20 @@
+{
+  "protocol": "224 center crop, no TTA",
+  "num_images": 100,
+  "imagenet_root": "/home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet",
+  "val_dir": "/home/gaoft/iccad2026/NeuroSimV1.5/datasets/imagenet/val",
+  "results": {
+    "ViT-B": {
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "total": 100,
+      "time_s": 0.92
+    },
+    "Swin-T": {
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "total": 100,
+      "time_s": 0.7
+    }
+  }
+}

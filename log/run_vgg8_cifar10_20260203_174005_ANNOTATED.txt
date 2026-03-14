@@ -1,0 +1,725 @@
+# ======================================================================
+# NeuroSim 运行日志 - 带详细注释版本
+# 原始文件: run_vgg8_cifar10_20260203_174005.txt
+# ======================================================================
+
+# 【第1行】【运行信息】NeuroSim推理评估开始
+NeuroSim Inference Run
+# 【第2行】【运行ID】唯一标识符，格式：模型_数据集_时间戳
+Run ID: vgg8_cifar10_20260203_174005
+Timestamp: 2026-02-03T17:40:05.378095
+# 【第4行】【运行命令】完整的命令行参数
+Command: /usr/bin/python3 inference.py --model vgg8 --dataset cifar10 --bitcell 1 --sub_array [128,128] --mem_type resistive --adc_precision 7 --num_batches 1 --data_path ./datasets/ --hardware 1 --ppa 1 --mem_states_file mem_states.csv --weight_precision 8 --input_precision 8 --parallel_read 128
+================================================================================
+
+WARNING: Logging before flag parsing goes to stderr.
+# 【第8行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.785019 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第9行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第10行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:09.785443 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第11行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第12行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:09.785507 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第13行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第14行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.967635 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第15行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第16行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:09.967807 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第17行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第18行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:09.967855 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第19行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第20行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.969233 140241616684864 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第21行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第22行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.971757 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第23行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第24行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:09.971838 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第25行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第26行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:09.971880 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第27行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第28行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.977107 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第29行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第30行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:09.977191 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第31行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第32行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:09.977239 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第33行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第34行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.978157 140241616684864 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第35行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第36行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:09.986122 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第37行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第38行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:09.986204 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第39行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第40行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:09.986250 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第41行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第42行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:10.001444 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第43行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+# 【第44行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:10.001539 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第45行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+# 【第46行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:10.001592 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第47行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+# 【第48行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:10.002499 140241616684864 _utils.py:305] Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第49行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMMaxPool2d with axis None!
+# 【第50行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:10.054051 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+# 【第51行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+# 【第52行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:10.054149 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+# 【第53行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+# 【第54行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:10.054192 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+# 【第55行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+# 【第56行】【量化信息】输入数据量化为8-bit整数
+I0203 17:40:10.055352 140241616684864 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+# 【第57行】【量化信息】输入数据量化为8-bit整数
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+# 【第58行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+I0203 17:40:10.055435 140241616684864 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+# 【第59行】【量化信息】权重量化为8-bit整数（axis=0表示按通道）
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+# 【第60行】【量化信息】输出量化为7-bit（对应ADC精度）
+I0203 17:40:10.055481 140241616684864 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+# 【第61行】【量化信息】输出量化为7-bit（对应ADC精度）
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=400/bitcell=1/calib_batch_size=128/dac_precision=1/dataset=cifar10/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=vgg8/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+# 【第63行】【参数列表】以下是所有运行参数的完整列表
+=================FLAGS==================
+dataset: cifar10
+model: vgg8
+data_path: ./datasets/
+model_path: ./models/
+test_name: test
+mode: TensorRT
+gpu: 0
+batch_size: 400
+calib_batch_size: 128
+seed: 1234
+logdir: log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=400/bitcell=1/calib_batch_size=128/dac_precision=1/dataset=cifar10/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=vgg8/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+# 【第75行】【硬件模拟】1=启用硬件模拟，0=仅软件
+hardware: 1
+# 【第76行】【PPA分析】1=运行功耗/性能/面积分析，0=跳过
+ppa: 1
+num_batches: 1
+# 【第78行】【SubArray大小】CIM基本单元，128×128=16384个存储单元
+sub_array: [128, 128]
+parallel_read: 128
+weight_precision: 8
+input_precision: 8
+dac_precision: 1
+# 【第83行】【ADC精度】7-bit，影响量化误差和硬件复杂度
+adc_precision: 7
+bitcell: 1
+mem_type: resistive
+off_state: 0.006
+on_state: 1.02e-11
+mem_states_file: mem_states.csv
+vdd: 1
+read_noise: 0.0
+output_noise: 0.0
+output_noise_file: 
+t: 1
+v: 0.0
+v_list: [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]
+detect: 0
+target: 0.0
+rate_stuck_0: 0.0
+rate_stuck_1: 0.0
+input_calib_method: max
+weight_calib_method: max
+adc_calib_method: max
+input_axis: None
+weight_axis: 0
+adc_axis: None
+adc_quant_method: scale
+optimize_adc: 0
+adc_enable: 1
+logger: <bound method Logger.info of <pytorch_quantization.utils.misc.Logger object at 0x7f8c8b105a00>>
+========================================
+
+Running in-memory computing functional simulation of vgg8 on cifar10 dataset...
+Building CIFAR-10 data loader with 1 workers
+Files already downloaded and verified
+Building CIFAR-10 data loader with 1 workers
+Files already downloaded and verified
+
+Warning: Pretrained model ./models/vgg8_cifar10.pth not found. Using randomly initialized weights.
+VGG(
+  (layers): Sequential(
+    (0): CIMConv2d(
+      3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (1): ReLU()
+    (2): CIMConv2d(
+      128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (3): ReLU()
+    (4): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (5): CIMConv2d(
+      128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (6): ReLU()
+    (7): CIMConv2d(
+      256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (8): ReLU()
+    (9): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (10): CIMConv2d(
+      256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (11): ReLU()
+    (12): CIMConv2d(
+      512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (13): ReLU()
+    (14): CIMMaxPool2d(
+      kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+  )
+  (classifier): Sequential(
+    (0): CIMLinear(
+      in_features=8192, out_features=1024, bias=True
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+    (1): ReLU()
+    (2): CIMLinear(
+      in_features=1024, out_features=10, bias=True
+      (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    )
+  )
+)
+Evaluating baseline model...
+
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+# 【第196行】【推理结果】模型准确率（12%是正常的，因为没有预训练模型）
+  0%|          | 0/1 [00:00<?, ?it/s]Test Accuracy of the model on 400 test images: 12.0 %
+# 【第197行】【推理结果】平均测试损失，越小越好
+Average Test loss: 2.3030481338500977
+
+--------------------------------------------
+evaluation time: 0.5120987892150879
+Quantizing inputs and weights...
+Collecting histograms...
+
+
+
+  0%|          | 0/2 [00:00<?, ?it/s]I0203 17:40:10.738442 140241616684864 max.py:61] Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+
+ 50%|█████     | 1/2 [00:00<00:00,  7.53it/s]
+100%|██████████| 2/2 [00:00<00:00,  8.28it/s]
+W0203 17:40:10.941901 140241616684864 tensor_quantizer.py:239] Call .cuda() if running on GPU after loading calibrated amax.
+Call .cuda() if running on GPU after loading calibrated amax.
+
+Computing amax... 
+
+Finished quantizing inputs and weights.
+Evaluating input and weight quantized model...
+
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+I0203 17:40:11.244106 140241616684864 misc.py:32] Running inference with detailed hardware simulation...
+Running inference with detailed hardware simulation...
+# 【第224行】【推理结果】模型准确率（12%是正常的，因为没有预训练模型）
+Test Accuracy of the model on 400 test images: 12.0 %
+# 【第225行】【推理结果】平均测试损失，越小越好
+Average Test loss: 2.303046941757202
+
+--------------------------------------------
+evaluation time: 0.2053089141845703
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:16<?, ?it/s]User assigned speed-up degree is larger than the upper bound (where no idle period during the whole process) 
+The speed-up degree is auto-assigned as the upper bound (where no idle period during the whole process) 
+# 【第233行】【芯片布局】硬件布局规划，优化内存利用率
+------------------------------ FloorPlan --------------------------------
+
+Tile and PE size are optimized to maximize memory utilization ( = memory mapped by synapse / total memory on chip)
+
+Desired Conventional Mapped Tile Storage Size: 1024x1024
+Desired Conventional PE Storage Size: 512x512
+Desired Novel Mapped Tile Storage Size: 9x512x512
+User-defined SubArray Size: 128x128
+
+# 【第242行】【Tile使用】每层使用的Tile数量，Tile是芯片上的大块区域
+----------------- # of tile used for each layer -----------------
+layer1: 2
+layer2: 8
+layer3: 4
+layer4: 8
+layer5: 8
+layer6: 8
+layer7: 64
+layer8: 1
+
+# 【第252行】【加速倍数】每层通过流水线实现的加速倍数
+----------------- Speed-up of each layer ------------------
+layer1: 16
+layer2: 16
+layer3: 4
+layer4: 4
+layer5: 2
+layer6: 1
+layer7: 1
+layer8: 8
+
+# 【第262行】【内存利用率】每层的内存利用率，越高越好
+----------------- Utilization of each layer ------------------
+layer1: 0.210938
+layer2: 1
+layer3: 1
+layer4: 1
+layer5: 1
+layer6: 1
+layer7: 1
+layer8: 0.625
+# 【第271行】【整体利用率】整个芯片的内存利用率，98.1%非常高
+Memory Utilization of Whole Chip: 98.1038 % 
+
+# 【第273行】【芯片布局】硬件布局规划，优化内存利用率
+---------------------------- FloorPlan Done ------------------------------
+
+
+
+clkPeriod: 2.39073e-09
+-------------------------------------- Hardware Performance --------------------------------------
+# 【第279行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 1 ----------------------
+# 【第280行】【延迟】读取延迟，处理该层所需时间（ns）
+layer1's readLatency is: 187591ns
+# 【第281行】【动态功耗】执行计算消耗的能量（pJ）
+layer1's readDynamicEnergy is: 1.78633e+06pJ
+# 【第282行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer1's leakagePower is: 0uW
+layer1's leakageEnergy is: 0pJ
+layer1's buffer latency is: 147807ns
+# 【第285行】【动态功耗】执行计算消耗的能量（pJ）
+layer1's buffer readDynamicEnergy is: 8519.71pJ
+layer1's ic latency is: 30565.1ns
+# 【第287行】【动态功耗】执行计算消耗的能量（pJ）
+layer1's ic readDynamicEnergy is: 403234pJ
+
+# 【第289行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第291行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 8606.62ns
+# 【第292行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 373.551ns
+# 【第293行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 178611ns
+# 【第294行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 911724pJ
+# 【第295行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 150152pJ
+# 【第296行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 724457pJ
+
+# 【第298行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第300行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 2 ----------------------
+# 【第301行】【延迟】读取延迟，处理该层所需时间（ns）
+layer2's readLatency is: 91043.7ns
+# 【第302行】【动态功耗】执行计算消耗的能量（pJ）
+layer2's readDynamicEnergy is: 1.80344e+07pJ
+# 【第303行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer2's leakagePower is: 205.144uW
+layer2's leakageEnergy is: 38483.2pJ
+layer2's buffer latency is: 56476.7ns
+# 【第306行】【动态功耗】执行计算消耗的能量（pJ）
+layer2's buffer readDynamicEnergy is: 69254.2pJ
+layer2's ic latency is: 21582.3ns
+# 【第308行】【动态功耗】执行计算消耗的能量（pJ）
+layer2's ic readDynamicEnergy is: 1.93557e+06pJ
+
+# 【第310行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第312行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 8606.62ns
+# 【第313行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 2525.21ns
+# 【第314行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 79911.9ns
+# 【第315行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 1.14884e+07pJ
+# 【第316行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 1.35309e+06pJ
+# 【第317行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 5.1929e+06pJ
+
+# 【第319行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第321行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 3 ----------------------
+# 【第322行】【延迟】读取延迟，处理该层所需时间（ns）
+layer3's readLatency is: 38886.3ns
+# 【第323行】【动态功耗】执行计算消耗的能量（pJ）
+layer3's readDynamicEnergy is: 8.47992e+06pJ
+# 【第324行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer3's leakagePower is: 157.984uW
+layer3's leakageEnergy is: 29636.4pJ
+layer3's buffer latency is: 13439.3ns
+# 【第327行】【动态功耗】执行计算消耗的能量（pJ）
+layer3's buffer readDynamicEnergy is: 30129.5pJ
+layer3's ic latency is: 17258.8ns
+# 【第329行】【动态功耗】执行计算消耗的能量（pJ）
+layer3's ic readDynamicEnergy is: 850918pJ
+
+# 【第331行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第333行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 7497.32ns
+# 【第334行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 585.728ns
+# 【第335行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 30803.3ns
+# 【第336行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 5.56124e+06pJ
+# 【第337行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 584479pJ
+# 【第338行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 2.3342e+06pJ
+
+# 【第340行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第342行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 4 ----------------------
+# 【第343行】【延迟】读取延迟，处理该层所需时间（ns）
+layer4's readLatency is: 44094.9ns
+# 【第344行】【动态功耗】执行计算消耗的能量（pJ）
+layer4's readDynamicEnergy is: 1.46669e+07pJ
+# 【第345行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer4's leakagePower is: 315.782uW
+layer4's leakageEnergy is: 59237.9pJ
+layer4's buffer latency is: 19179.4ns
+# 【第348行】【动态功耗】执行计算消耗的能量（pJ）
+layer4's buffer readDynamicEnergy is: 42956.8pJ
+layer4's ic latency is: 15919.2ns
+# 【第350行】【动态功耗】执行计算消耗的能量（pJ）
+layer4's ic readDynamicEnergy is: 952899pJ
+
+# 【第352行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第354行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 7497.32ns
+# 【第355行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 690.92ns
+# 【第356行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 35906.7ns
+# 【第357行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 9.75251e+06pJ
+# 【第358行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 1.17133e+06pJ
+# 【第359行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 3.74303e+06pJ
+
+# 【第361行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第363行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 5 ----------------------
+# 【第364行】【延迟】读取延迟，处理该层所需时间（ns）
+layer5's readLatency is: 12735.2ns
+# 【第365行】【动态功耗】执行计算消耗的能量（pJ）
+layer5's readDynamicEnergy is: 5.91272e+06pJ
+# 【第366行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer5's leakagePower is: 384.793uW
+layer5's leakageEnergy is: 72183.7pJ
+layer5's buffer latency is: 3912.19ns
+# 【第369行】【动态功耗】执行计算消耗的能量（pJ）
+layer5's buffer readDynamicEnergy is: 15752pJ
+layer5's ic latency is: 5901.51ns
+# 【第371行】【动态功耗】执行计算消耗的能量（pJ）
+layer5's ic readDynamicEnergy is: 352935pJ
+
+# 【第373行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第375行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 2754.12ns
+# 【第376行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 129.099ns
+# 【第377行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 9851.95ns
+# 【第378行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 4.05089e+06pJ
+# 【第379行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 429690pJ
+# 【第380行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 1.43214e+06pJ
+
+# 【第382行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第384行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 6 ----------------------
+# 【第385行】【延迟】读取延迟，处理该层所需时间（ns）
+layer6's readLatency is: 23424.1ns
+# 【第386行】【动态功耗】执行计算消耗的能量（pJ）
+layer6's readDynamicEnergy is: 1.09752e+07pJ
+# 【第387行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer6's leakagePower is: 386.709uW
+layer6's leakageEnergy is: 72543.3pJ
+layer6's buffer latency is: 6393.76ns
+# 【第390行】【动态功耗】执行计算消耗的能量（pJ）
+layer6's buffer readDynamicEnergy is: 25165.6pJ
+layer6's ic latency is: 11053.5ns
+# 【第392行】【动态功耗】执行计算消耗的能量（pJ）
+layer6's ic readDynamicEnergy is: 430750pJ
+
+# 【第394行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第396行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 5508.24ns
+# 【第397行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 172.132ns
+# 【第398行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 17743.7ns
+# 【第399行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 7.5916e+06pJ
+# 【第400行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 859834pJ
+# 【第401行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 2.52372e+06pJ
+
+# 【第403行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第405行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 7 ----------------------
+# 【第406行】【延迟】读取延迟，处理该层所需时间（ns）
+layer7's readLatency is: 1041.16ns
+# 【第407行】【动态功耗】执行计算消耗的能量（pJ）
+layer7's readDynamicEnergy is: 1.27028e+06pJ
+# 【第408行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer7's leakagePower is: 1199.86uW
+layer7's leakageEnergy is: 225083pJ
+layer7's buffer latency is: 628.761ns
+# 【第411行】【动态功耗】执行计算消耗的能量（pJ）
+layer7's buffer readDynamicEnergy is: 2724.92pJ
+layer7's ic latency is: 249.831ns
+# 【第413行】【动态功耗】执行计算消耗的能量（pJ）
+layer7's ic readDynamicEnergy is: 41112.2pJ
+
+# 【第415行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第417行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 153.007ns
+# 【第418行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 7.17218ns
+# 【第419行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 880.983ns
+# 【第420行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 917730pJ
+# 【第421行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 85045.8pJ
+# 【第422行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 267501pJ
+
+# 【第424行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第426行】【层性能分析】该层的详细硬件性能指标
+-------------------- Estimation of Layer 8 ----------------------
+# 【第427行】【延迟】读取延迟，处理该层所需时间（ns）
+layer8's readLatency is: 581.136ns
+# 【第428行】【动态功耗】执行计算消耗的能量（pJ）
+layer8's readDynamicEnergy is: 2730.9pJ
+# 【第429行】【泄漏功耗】静态功耗，即使不工作也会消耗（uW）
+layer8's leakagePower is: 18.794uW
+layer8's leakageEnergy is: 3525.59pJ
+layer8's buffer latency is: 336.329ns
+# 【第432行】【动态功耗】执行计算消耗的能量（pJ）
+layer8's buffer readDynamicEnergy is: 26.8089pJ
+layer8's ic latency is: 220.601ns
+# 【第434行】【动态功耗】执行计算消耗的能量（pJ）
+layer8's ic readDynamicEnergy is: 790.226pJ
+
+# 【第436行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第438行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 19.1258ns
+# 【第439行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 2.68957ns
+# 【第440行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 559.32ns
+# 【第441行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 1305.47pJ
+# 【第442行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 175.982pJ
+# 【第443行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 1249.45pJ
+
+# 【第445行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第447行】【芯片汇总】整个芯片的面积、功耗、延迟汇总
+------------------------------ Summary --------------------------------
+
+# 【第449行】【芯片面积】总芯片面积（um²），约120.4 mm²
+ChipArea : 1.20392e+08um^2
+#     解读：总芯片面积约120.4 mm²（12mm×10mm），CIM阵列仅占3%
+Chip total CIM array : 3.60536e+06um^2
+Total IC Area on chip (Global and Tile/PE local): 1.51346e+07um^2
+Total ADC (or S/As and precharger for SRAM) Area on chip : 2.853e+07um^2
+Total Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) on chip : 1.74933e+07um^2
+Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, pooling and activation units) : 5.53433e+07um^2
+
+Chip clock period is: 2.39073ns
+# 【第457行】【处理时间】每张图像的处理时间（ns），187.6微秒
+Chip pipeline-system-clock-cycle (per image) is: 187591ns
+# 【第458行】【动态功耗】执行计算消耗的能量（pJ）
+Chip pipeline-system readDynamicEnergy (per image) is: 6.11284e+07pJ
+Chip pipeline-system leakage Energy (per image) is: 500693pJ
+Chip pipeline-system leakage Power (per image) is: 2669.06uW
+# 【第461行】【延迟】读取延迟，处理该层所需时间（ns）
+Chip pipeline-system buffer readLatency (per image) is: 147807ns
+# 【第462行】【动态功耗】执行计算消耗的能量（pJ）
+Chip pipeline-system buffer readDynamicEnergy (per image) is: 194530pJ
+# 【第463行】【延迟】读取延迟，处理该层所需时间（ns）
+Chip pipeline-system ic readLatency (per image) is: 30565.1ns
+# 【第464行】【动态功耗】执行计算消耗的能量（pJ）
+Chip pipeline-system ic readDynamicEnergy (per image) is: 4.96821e+06pJ
+
+# 【第466行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+# 【第468行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- ADC (or S/As and precharger for SRAM) readLatency is : 8606.62ns
+# 【第469行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readLatency is : 2525.21ns
+# 【第470行】【延迟】读取延迟，处理该层所需时间（ns）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readLatency is : 178611ns
+# 【第471行】【动态功耗】执行计算消耗的能量（pJ）
+----------- ADC (or S/As and precharger for SRAM) readDynamicEnergy is : 4.02754e+07pJ
+# 【第472行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Accumulation Circuits (subarray level: adders, shiftAdds; PE/Tile/Global level: accumulation units) readDynamicEnergy is : 4.6338e+06pJ
+# 【第473行】【动态功耗】执行计算消耗的能量（pJ）
+----------- Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, IC, pooling and activation units) readDynamicEnergy is : 1.62192e+07pJ
+
+# 【第475行】【延迟分解】延迟按组件分解：ADC、累加电路、其他外围
+************************ Breakdown of Latency and Dynamic Energy *************************
+
+
+----------------------------- Performance -------------------------------
+# 【第479行】【能量效率】每瓦特功率能提供的TOPS，16.38 TOPS/W（良好）
+Energy Efficiency TOPS/W (Pipelined Process): 16.3835
+#     解读：16.38 TOPS/W是良好的能量效率，高于大多数GPU
+# 【第480行】【吞吐量】每秒能执行的TOPS，6.57 TOPS
+Throughput TOPS (Pipelined Process): 6.56659
+# 【第481行】【帧率】每秒能处理的图像数，5,330 FPS（非常快）
+Throughput FPS (Pipelined Process): 5330.74
+#     解读：5,330 FPS意味着每秒可处理5,330张图像，非常快
+# 【第482行】【计算效率】每平方毫米能提供的TOPS，0.0545 TOPS/mm²
+Compute efficiency TOPS/mm^2 (Pipelined Process): 0.0545432
+-------------------------------------- Hardware Performance Done --------------------------------------
+
+------------------------------ Simulation Performance --------------------------------
+# 【第486行】【模拟时间】C++硬件模拟的总运行时间，197秒
+Total Run-time of NeuroSim: 197 seconds
+------------------------------ Simulation Performance --------------------------------
+
+# 【第489行】【推理结果】模型准确率（12%是正常的，因为没有预训练模型）
+Test Accuracy of the model on 400 test images: 12.0 %
+# 【第490行】【推理结果】平均测试损失，越小越好
+Average Test loss: 2.3030571937561035
+
+--------------------------------------------
+evaluation time: 16.325230598449707
+ --- Hardware Properties --- 
+subArray size: 
+[128, 128]
+parallel read: 
+128
+ADC precision: 
+7
+cell precision: 
+1
+on/off ratio: 
+1.7e-09
+
+
+# 【第507行】【完成标记】运行成功完成
+Run completed successfully at 2026-02-03T17:43:45.814627
+# 【第508行】【运行ID】唯一标识符，格式：模型_数据集_时间戳
+Run ID: vgg8_cifar10_20260203_174005

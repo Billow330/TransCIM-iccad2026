@@ -1,0 +1,71 @@
+{
+  "note": "Ablation: mapping only, precision only, attention only, full TransCIM",
+  "num_batches": 2,
+  "batch_size": 32,
+  "results": {
+    "vit_b": {
+      "baseline": {
+        "acc1": 100.0,
+        "acc5": 100.0,
+        "runtime_s": 45.64,
+        "success": true
+      },
+      "mapping_only": {
+        "acc1": 100.0,
+        "acc5": 100.0,
+        "runtime_s": 46.21,
+        "success": true
+      },
+      "precision_only": {
+        "acc1": 100.0,
+        "acc5": 100.0,
+        "runtime_s": 48.4,
+        "success": true
+      },
+      "attention_only": {
+        "acc1": 100.0,
+        "acc5": 100.0,
+        "runtime_s": 45.54,
+        "success": true
+      },
+      "full": {
+        "acc1": 100.0,
+        "acc5": 100.0,
+        "runtime_s": 48.95,
+        "success": true
+      }
+    },
+    "swin_t": {
+      "baseline": {
+        "acc1": 93.75,
+        "acc5": 100.0,
+        "runtime_s": 26.77,
+        "success": true
+      },
+      "mapping_only": {
+        "acc1": 93.75,
+        "acc5": 100.0,
+        "runtime_s": 26.68,
+        "success": true
+      },
+      "precision_only": {
+        "acc1": 93.75,
+        "acc5": 100.0,
+        "runtime_s": 29.2,
+        "success": true
+      },
+      "attention_only": {
+        "acc1": 93.75,
+        "acc5": 100.0,
+        "runtime_s": 26.75,
+        "success": true
+      },
+      "full": {
+        "acc1": 93.75,
+        "acc5": 100.0,
+        "runtime_s": 29.3,
+        "success": true
+      }
+    }
+  }
+}

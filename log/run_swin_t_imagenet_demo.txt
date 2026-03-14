@@ -1,0 +1,1439 @@
+WARNING: Logging before flag parsing goes to stderr.
+I0204 14:31:00.052897 140035495106368 misc.py:32] 
+Loading pretrained swin_t for ImageNet from Torch model hub...
+
+Loading pretrained swin_t for ImageNet from Torch model hub...
+I0204 14:31:00.123795 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMConv2d with axis None!
+Input is fake quantized to 8 bits in CIMConv2d with axis None!
+I0204 14:31:00.123947 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+Weight is fake quantized to 8 bits in CIMConv2d with axis 0!
+I0204 14:31:00.124010 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMConv2d with axis None!
+Output is fake quantized to 7 bits in CIMConv2d with axis None!
+I0204 14:31:00.300841 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.301053 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.301106 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.302891 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.302999 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.303046 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.305810 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.305896 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.305942 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.307057 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.307136 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.307182 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.308794 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.308875 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.308920 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.310294 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.310373 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.310418 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.312440 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.312537 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.312585 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.313819 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.313897 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.313942 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.315584 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.315663 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.315708 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.316854 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.316937 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.316985 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.318430 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.318508 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.318554 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.319943 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.320022 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.320067 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.322235 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.322315 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.322361 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.324248 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.324326 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.324398 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.325787 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.325865 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.325910 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.327504 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.327594 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.327639 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.328764 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.328846 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.328893 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.331001 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.331079 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.331124 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.333158 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.333238 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.333283 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.336646 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.336730 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.336776 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.338170 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.338248 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.338299 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.339876 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.339957 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.340009 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.341114 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.341193 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.341238 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.343289 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.343367 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.343412 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.346751 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.346831 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.346876 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.351180 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.351259 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.351304 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.355191 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.355272 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.355318 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.357308 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.357388 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.357433 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.359021 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.359110 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.359154 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.360320 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.360412 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.360458 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.365097 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.365175 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.365220 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.369830 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.369913 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.369957 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.379190 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.379269 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.379314 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.381303 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.381381 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.381426 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.383094 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.383174 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.383219 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.384394 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.384476 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.384523 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.389301 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.389385 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.389434 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.394126 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.394206 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.394251 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.403610 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.403690 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.403736 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.405753 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.405833 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.405877 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.407480 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.407563 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.407609 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.408734 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.408814 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.408858 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.413487 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.413572 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.413619 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.418241 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.418321 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.418365 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.427789 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.427873 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.427926 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.429942 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.430022 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.430067 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.431751 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.431839 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.431887 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.433072 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.433156 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.433204 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.438004 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.438084 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.438129 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.442806 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.442886 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.442930 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.452443 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.452527 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.452574 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.454680 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.454760 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.454805 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.456437 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.456527 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.456576 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.457719 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.457802 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.457848 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.462560 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.462643 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.462690 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.467346 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.467429 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.467475 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.476705 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.476786 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.476833 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.478864 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.478942 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.478987 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.480622 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.480714 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.480758 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.481856 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.481938 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.481984 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.486634 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.486716 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.486762 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.491523 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.491615 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.491672 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.505223 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.505306 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.505352 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.517121 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.517201 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.517247 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.521926 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.522013 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.522059 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.523734 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.523813 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.523859 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.525009 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.525092 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.525140 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.540332 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.540418 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.540472 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.555513 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.555594 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.555640 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.588677 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.588768 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.588814 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.593438 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.593522 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.593566 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.595318 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.595399 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.595444 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.596577 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.596657 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.596702 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.611739 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.611820 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.611866 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.626857 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.626937 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.626982 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+I0204 14:31:00.649781 140035495106368 _utils.py:305] Input is fake quantized to 8 bits in CIMAdaptiveAvgPool2d with axis None!
+Input is fake quantized to 8 bits in CIMAdaptiveAvgPool2d with axis None!
+I0204 14:31:00.655124 140035495106368 _utils.py:224] Input is fake quantized to 8 bits in CIMLinear with axis None!
+Input is fake quantized to 8 bits in CIMLinear with axis None!
+I0204 14:31:00.655203 140035495106368 _utils.py:227] Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+Weight is fake quantized to 8 bits in CIMLinear with axis 0!
+I0204 14:31:00.655249 140035495106368 _utils.py:230] Output is fake quantized to 7 bits in CIMLinear with axis None!
+Output is fake quantized to 7 bits in CIMLinear with axis None!
+Downloading: "https://download.pytorch.org/models/swin_v2_t-b137f0e2.pth" to /home/gaoft/.cache/torch/hub/checkpoints/swin_v2_t-b137f0e2.pth
+log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=4/bitcell=1/calib_batch_size=4/dac_precision=1/dataset=imagenet/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=swin_t/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+=================FLAGS==================
+dataset: imagenet
+model: swin_t
+data_path: ./datasets/
+model_path: ./models/
+test_name: test
+mode: TensorRT
+gpu: 0
+batch_size: 4
+calib_batch_size: 4
+seed: 1234
+logdir: log/default/adc_axis=None/adc_calib_method=max/adc_enable=1/adc_precision=7/adc_quant_method=scale/batch_size=4/bitcell=1/calib_batch_size=4/dac_precision=1/dataset=imagenet/detect=0/hardware=1/input_axis=None/input_calib_method=max/input_precision=8/mem_states_file=mem_states.csv/mem_type=resistive/mode=TensorRT/model=swin_t/num_batches=1/off_state=0.006/on_state=1.02e-11/optimize_adc=0/output_noise=0.0/output_noise_file=/parallel_read=128/ppa=1/rate_stuck_0=0.0/rate_stuck_1=0.0/read_noise=0.0/seed=1234/sub_array=[128, 128]/t=1/target=0.0/test_name=test/v=0.0/v_list=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]/vdd=1/weight_axis=0/weight_calib_method=max/weight_precision=8
+hardware: 1
+ppa: 1
+num_batches: 1
+sub_array: [128, 128]
+parallel_read: 128
+weight_precision: 8
+input_precision: 8
+dac_precision: 1
+adc_precision: 7
+bitcell: 1
+mem_type: resistive
+off_state: 0.006
+on_state: 1.02e-11
+mem_states_file: mem_states.csv
+vdd: 1
+read_noise: 0.0
+output_noise: 0.0
+output_noise_file: 
+t: 1
+v: 0.0
+v_list: [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]
+detect: 0
+target: 0.0
+rate_stuck_0: 0.0
+rate_stuck_1: 0.0
+input_calib_method: max
+weight_calib_method: max
+adc_calib_method: max
+input_axis: None
+weight_axis: 0
+adc_axis: None
+adc_quant_method: scale
+optimize_adc: 0
+adc_enable: 1
+logger: <bound method Logger.info of <pytorch_quantization.utils.misc.Logger object at 0x7f5c8d428820>>
+========================================
+
+Running in-memory computing functional simulation of swin_t on imagenet dataset...
+  0%|          | 0.00/109M [00:00<?, ?B/s]  0%|          | 256k/109M [00:00<00:44, 2.55MB/s]  2%|▏         | 2.00M/109M [00:00<00:09, 11.6MB/s]  6%|▌         | 6.75M/109M [00:00<00:03, 28.6MB/s]  9%|▊         | 9.50M/109M [00:00<00:03, 27.9MB/s] 12%|█▏        | 12.9M/109M [00:00<00:03, 30.3MB/s] 19%|█▉        | 20.5M/109M [00:00<00:01, 46.8MB/s] 24%|██▍       | 26.5M/109M [00:00<00:01, 51.9MB/s] 29%|██▉       | 31.5M/109M [00:00<00:01, 51.2MB/s] 35%|███▌      | 38.2M/109M [00:00<00:01, 57.0MB/s] 40%|████      | 43.8M/109M [00:01<00:01, 56.3MB/s] 45%|████▌     | 49.2M/109M [00:01<00:01, 54.2MB/s] 50%|█████     | 54.5M/109M [00:01<00:01, 53.6MB/s] 55%|█████▌    | 60.1M/109M [00:01<00:00, 54.2MB/s] 60%|██████    | 65.4M/109M [00:01<00:00, 53.1MB/s] 65%|██████▍   | 70.5M/109M [00:01<00:00, 52.8MB/s] 70%|██████▉   | 75.6M/109M [00:01<00:00, 52.7MB/s] 76%|███████▌  | 82.5M/109M [00:01<00:00, 58.2MB/s] 82%|████████▏ | 88.6M/109M [00:01<00:00, 59.9MB/s] 87%|████████▋ | 94.4M/109M [00:01<00:00, 57.2MB/s] 93%|█████████▎| 100M/109M [00:02<00:00, 57.9MB/s]  98%|█████████▊| 106M/109M [00:02<00:00, 57.3MB/s]100%|██████████| 109M/109M [00:02<00:00, 50.7MB/s]SwinTransformer(
+  (features): Sequential(
+    (0): Sequential(
+      (0): CIMConv2d(
+        3, 96, kernel_size=(4, 4), stride=(4, 4)
+        (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      )
+      (1): Permute()
+      (2): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+    )
+    (1): Sequential(
+      (0): SwinTransformerBlockV2(
+        (norm1): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=96, out_features=288, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=96, out_features=96, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=3, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.0, mode=row)
+        (norm2): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=96, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=384, out_features=96, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (1): SwinTransformerBlockV2(
+        (norm1): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=96, out_features=288, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=96, out_features=96, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=3, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.018181818181818184, mode=row)
+        (norm2): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=96, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=384, out_features=96, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (2): PatchMergingV2(
+      (reduction): CIMLinear(
+        in_features=384, out_features=192, bias=False
+        (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      )
+      (norm): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+    )
+    (3): Sequential(
+      (0): SwinTransformerBlockV2(
+        (norm1): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=192, out_features=576, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=192, out_features=192, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=6, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.03636363636363637, mode=row)
+        (norm2): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=192, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=768, out_features=192, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (1): SwinTransformerBlockV2(
+        (norm1): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=192, out_features=576, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=192, out_features=192, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=6, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.05454545454545456, mode=row)
+        (norm2): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=192, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=768, out_features=192, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (4): PatchMergingV2(
+      (reduction): CIMLinear(
+        in_features=768, out_features=384, bias=False
+        (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      )
+      (norm): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (5): Sequential(
+      (0): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.07272727272727274, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (1): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.09090909090909091, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (2): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.10909090909090911, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (3): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.1272727272727273, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (4): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.14545454545454548, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (5): SwinTransformerBlockV2(
+        (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=384, out_features=1152, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=384, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=12, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.16363636363636364, mode=row)
+        (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=384, out_features=1536, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=1536, out_features=384, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (6): PatchMergingV2(
+      (reduction): CIMLinear(
+        in_features=1536, out_features=768, bias=False
+        (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+        (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+      )
+      (norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (7): Sequential(
+      (0): SwinTransformerBlockV2(
+        (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=768, out_features=2304, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=768, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=24, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.18181818181818182, mode=row)
+        (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=768, out_features=3072, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=3072, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (1): SwinTransformerBlockV2(
+        (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (attn): ShiftedWindowAttentionV2(
+          (qkv): CIMLinear(
+            in_features=768, out_features=2304, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (proj): CIMLinear(
+            in_features=768, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (cpb_mlp): Sequential(
+            (0): CIMLinear(
+              in_features=2, out_features=512, bias=True
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+            (1): ReLU(inplace=True)
+            (2): CIMLinear(
+              in_features=512, out_features=24, bias=False
+              (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+              (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            )
+          )
+        )
+        (stochastic_depth): StochasticDepth(p=0.2, mode=row)
+        (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (mlp): MLP(
+          (0): CIMLinear(
+            in_features=768, out_features=3072, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): CIMLinear(
+            in_features=3072, out_features=768, bias=True
+            (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+            (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+          )
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+  )
+  (norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (permute): Permute()
+  (avgpool): CIMAdaptiveAvgPool2d(
+    output_size=1
+    (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+  )
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (head): CIMLinear(
+    in_features=768, out_features=1000, bias=True
+    (_input_quantizer): TensorQuantizer(8bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    (_weight_quantizer): TensorQuantizer(8bit fake axis=0 amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+    (_adc_quantizer): TensorQuantizer(unsigned 7bit fake per-tensor amax=dynamic calibrator=MaxCalibrator scale=1.0 quant)
+  )
+)
+
+Evaluating baseline model...
+
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]
+Test Accuracy of the model on 4 test images: 0.0 %
+Average Test loss: 8.792869567871094
+
+--------------------------------------------
+evaluation time: 0.5245702266693115
+Quantizing inputs and weights...
+Collecting histograms...
+
+  0%|          | 0/2 [00:00<?, ?it/s]I0204 14:48:30.977157 140035495106368 max.py:61] Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+Calibrator encountered negative values. It shouldn't happen after ReLU. Make sure this is the right tensor to calibrate.
+100%|██████████| 2/2 [00:00<00:00, 12.56it/s]100%|██████████| 2/2 [00:00<00:00,  8.50it/s]
+W0204 14:48:31.193481 140035495106368 tensor_quantizer.py:239] Call .cuda() if running on GPU after loading calibrated amax.
+Call .cuda() if running on GPU after loading calibrated amax.
+W0204 14:48:31.193728 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.193799 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.193907 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.193967 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194064 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194122 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194205 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194259 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194516 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194581 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194667 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194721 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194809 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194863 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.194943 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.194997 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.195290 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.195354 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.195439 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.195493 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.195579 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.195632 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.195726 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.195780 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196029 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.196092 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196176 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.196229 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196314 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.196378 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196461 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.196521 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196824 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.196888 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.196983 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197038 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.197127 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197179 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.197260 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197313 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.197569 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197632 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.197721 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197777 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.197866 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.197918 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.198000 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.198059 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.198313 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.198375 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.198457 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.198513 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.198600 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.198653 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.198734 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.198787 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199044 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199105 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199189 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199242 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199328 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199382 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199462 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199515 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199776 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199838 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.199923 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.199977 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200065 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.200119 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200205 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.200265 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200541 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.200608 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200695 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.200750 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200839 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.200891 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.200972 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.201025 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.201329 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.201391 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.201476 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.201529 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.201617 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.201670 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.201751 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.201804 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.202064 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.202124 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.202208 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.202262 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.202349 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.202403 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+W0204 14:48:31.202483 140035495106368 tensor_quantizer.py:233] Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+Calibrator returned None. This usually happens when calibrator hasn't seen any tensor.
+W0204 14:48:31.202542 140035495106368 tensor_quantizer.py:234] Set amax to NaN!
+Set amax to NaN!
+
+Computing amax... 
+
+Finished quantizing inputs and weights.
+Evaluating input and weight quantized model...
+
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]
+I0204 14:48:31.299740 140035495106368 misc.py:32] Running inference with detailed hardware simulation...
+Running inference with detailed hardware simulation...
+Test Accuracy of the model on 4 test images: 0.0 %
+Average Test loss: 8.946070671081543
+
+--------------------------------------------
+evaluation time: 0.08904790878295898
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:13<?, ?it/s]User assigned speed-up degree is larger than the upper bound (where no idle period during the whole process) 
+The speed-up degree is auto-assigned as the upper bound (where no idle period during the whole process) 
+ERROR: SubArray Size is too large, which break the chip hierarchey, please decrease the SubArray size! 
+./layer_record_swin_t/trace_command.sh：行 1: 1708522 段错误               （核心已转储） ./NeuroSIM/main ./NeuroSIM/NetWork_swin_t.csv 8 8 128 128 ./layer_record_swin_t/weight_features.0.0.csv ./layer_record_swin_t/input_features.0.0.csv ./layer_record_swin_t/weight_features.1.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.1.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.1.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.1.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.1.0.mlp.0.csv ./layer_record_swin_t/input_features.1.0.mlp.0.csv ./layer_record_swin_t/weight_features.1.0.mlp.3.csv ./layer_record_swin_t/input_features.1.0.mlp.3.csv ./layer_record_swin_t/weight_features.1.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.1.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.1.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.1.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.1.1.mlp.0.csv ./layer_record_swin_t/input_features.1.1.mlp.0.csv ./layer_record_swin_t/weight_features.1.1.mlp.3.csv ./layer_record_swin_t/input_features.1.1.mlp.3.csv ./layer_record_swin_t/weight_features.2.reduction.csv ./layer_record_swin_t/input_features.2.reduction.csv ./layer_record_swin_t/weight_features.3.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.3.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.3.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.3.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.3.0.mlp.0.csv ./layer_record_swin_t/input_features.3.0.mlp.0.csv ./layer_record_swin_t/weight_features.3.0.mlp.3.csv ./layer_record_swin_t/input_features.3.0.mlp.3.csv ./layer_record_swin_t/weight_features.3.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.3.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.3.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.3.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.3.1.mlp.0.csv ./layer_record_swin_t/input_features.3.1.mlp.0.csv ./layer_record_swin_t/weight_features.3.1.mlp.3.csv ./layer_record_swin_t/input_features.3.1.mlp.3.csv ./layer_record_swin_t/weight_features.4.reduction.csv ./layer_record_swin_t/input_features.4.reduction.csv ./layer_record_swin_t/weight_features.5.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.0.mlp.0.csv ./layer_record_swin_t/input_features.5.0.mlp.0.csv ./layer_record_swin_t/weight_features.5.0.mlp.3.csv ./layer_record_swin_t/input_features.5.0.mlp.3.csv ./layer_record_swin_t/weight_features.5.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.1.mlp.0.csv ./layer_record_swin_t/input_features.5.1.mlp.0.csv ./layer_record_swin_t/weight_features.5.1.mlp.3.csv ./layer_record_swin_t/input_features.5.1.mlp.3.csv ./layer_record_swin_t/weight_features.5.2.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.2.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.2.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.2.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.2.mlp.0.csv ./layer_record_swin_t/input_features.5.2.mlp.0.csv ./layer_record_swin_t/weight_features.5.2.mlp.3.csv ./layer_record_swin_t/input_features.5.2.mlp.3.csv ./layer_record_swin_t/weight_features.5.3.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.3.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.3.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.3.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.3.mlp.0.csv ./layer_record_swin_t/input_features.5.3.mlp.0.csv ./layer_record_swin_t/weight_features.5.3.mlp.3.csv ./layer_record_swin_t/input_features.5.3.mlp.3.csv ./layer_record_swin_t/weight_features.5.4.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.4.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.4.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.4.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.4.mlp.0.csv ./layer_record_swin_t/input_features.5.4.mlp.0.csv ./layer_record_swin_t/weight_features.5.4.mlp.3.csv ./layer_record_swin_t/input_features.5.4.mlp.3.csv ./layer_record_swin_t/weight_features.5.5.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.5.5.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.5.5.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.5.5.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.5.5.mlp.0.csv ./layer_record_swin_t/input_features.5.5.mlp.0.csv ./layer_record_swin_t/weight_features.5.5.mlp.3.csv ./layer_record_swin_t/input_features.5.5.mlp.3.csv ./layer_record_swin_t/weight_features.6.reduction.csv ./layer_record_swin_t/input_features.6.reduction.csv ./layer_record_swin_t/weight_features.7.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.7.0.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.7.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.7.0.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.7.0.mlp.0.csv ./layer_record_swin_t/input_features.7.0.mlp.0.csv ./layer_record_swin_t/weight_features.7.0.mlp.3.csv ./layer_record_swin_t/input_features.7.0.mlp.3.csv ./layer_record_swin_t/weight_features.7.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/input_features.7.1.attn.cpb_mlp.0.csv ./layer_record_swin_t/weight_features.7.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/input_features.7.1.attn.cpb_mlp.2.csv ./layer_record_swin_t/weight_features.7.1.mlp.0.csv ./layer_record_swin_t/input_features.7.1.mlp.0.csv ./layer_record_swin_t/weight_features.7.1.mlp.3.csv ./layer_record_swin_t/input_features.7.1.mlp.3.csv ./layer_record_swin_t/weight_head.csv ./layer_record_swin_t/input_head.csv
+
+Test Accuracy of the model on 4 test images: 0.0 %
+Average Test loss: 8.55953598022461
+
+--------------------------------------------
+evaluation time: 13.016274452209473
+ --- Hardware Properties --- 
+subArray size: 
+[128, 128]
+parallel read: 
+128
+ADC precision: 
+7
+cell precision: 
+1
+on/off ratio: 
+1.7e-09

@@ -1,0 +1,306 @@
+[
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_standard_none"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 30.072638988494873,
+    "timestamp": "2026-02-07T16:18:57.881906"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_standard_qkt_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 31.297119140625,
+    "timestamp": "2026-02-07T16:19:29.179140"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_standard_softmax_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 30.357444763183594,
+    "timestamp": "2026-02-07T16:19:59.536706"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "standard",
+      "precision_preset": null,
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_standard_all"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 29.98877263069153,
+    "timestamp": "2026-02-07T16:20:29.525597"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_conservative_none"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.852433919906616,
+    "timestamp": "2026-02-07T16:21:02.378146"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_conservative_qkt_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 33.055737018585205,
+    "timestamp": "2026-02-07T16:21:35.434044"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_conservative_softmax_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 33.1392867565155,
+    "timestamp": "2026-02-07T16:22:08.573442"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "conservative",
+      "precision_preset": "conservative",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_conservative_all"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.856454372406006,
+    "timestamp": "2026-02-07T16:22:41.430008"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_balanced_none"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.43883538246155,
+    "timestamp": "2026-02-07T16:23:13.868956"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_balanced_qkt_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.345412254333496,
+    "timestamp": "2026-02-07T16:23:46.214528"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_balanced_softmax_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 33.181556940078735,
+    "timestamp": "2026-02-07T16:24:19.397242"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "balanced",
+      "precision_preset": "balanced",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_balanced_all"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.34297013282776,
+    "timestamp": "2026-02-07T16:24:51.740361"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "none",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_aggressive_none"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.44228744506836,
+    "timestamp": "2026-02-07T16:25:24.182802"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "qkt_only",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": false
+      },
+      "config_id": "vit_b_conventional_aggressive_qkt_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 33.13614797592163,
+    "timestamp": "2026-02-07T16:25:57.319057"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "softmax_only",
+      "attention_opts": {
+        "use_qkt": false,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_aggressive_softmax_only"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.688148021698,
+    "timestamp": "2026-02-07T16:26:30.007321"
+  },
+  {
+    "config": {
+      "architecture": "vit_b",
+      "mapping_strategy": "conventional",
+      "use_architecture_mapping": 0,
+      "precision_config": "aggressive",
+      "precision_preset": "aggressive",
+      "attention_config": "all",
+      "attention_opts": {
+        "use_qkt": true,
+        "use_softmax": true
+      },
+      "config_id": "vit_b_conventional_aggressive_all"
+    },
+    "success": false,
+    "error": "name 'returncode' is not defined",
+    "elapsed_time": 32.63907432556152,
+    "timestamp": "2026-02-07T16:27:02.646519"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-02-10T21:54:18.633187",
+  "note": "Validation with 1024-image sample size (32 batches \u00d7 32 images) - COMPLETE",
+  "total_configs": 4,
+  "configs": [
+    {
+      "config": "baseline_swin",
+      "model": "swin_t",
+      "sample_size": 1024,
+      "success": true,
+      "accuracy": 91.31,
+      "source": "validation_1024_images.json"
+    },
+    {
+      "config": "best_accuracy_swin",
+      "model": "swin_t",
+      "sample_size": 1024,
+      "success": true,
+      "accuracy": 90.33203125,
+      "source": "validation_best_swin_1024.log"
+    },
+    {
+      "config": "baseline_vit",
+      "model": "vit_b",
+      "sample_size": 1024,
+      "success": true,
+      "accuracy": 90.234375,
+      "source": "validation_baseline_vit_1024.log"
+    },
+    {
+      "config": "optimized_vit",
+      "model": "vit_b",
+      "sample_size": 1024,
+      "success": true,
+      "accuracy": 89.453125,
+      "source": "validation_optimized_vit_1024.log"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "model": "swin_t",
+  "timestamp": "20260206_165946",
+  "results": [
+    {
+      "config_name": "uniform_8bit",
+      "description": "统一8-bit量化（基准）",
+      "input_precision": 8,
+      "weight_precision": 8,
+      "adc_precision": 7,
+      "accuracy": 0.0,
+      "status": "success"
+    },
+    {
+      "config_name": "uniform_6bit",
+      "description": "统一6-bit量化",
+      "input_precision": 6,
+      "weight_precision": 6,
+      "adc_precision": 6,
+      "accuracy": 0.0,
+      "status": "success"
+    },
+    {
+      "config_name": "progressive_1",
+      "description": "权重7-bit，其他8-bit",
+      "input_precision": 8,
+      "weight_precision": 7,
+      "adc_precision": 7,
+      "accuracy": 0.0,
+      "status": "success"
+    }
+  ],
+  "sensitivity_analysis": {
+    "baseline_accuracy": 0.0,
+    "configs": [
+      {
+        "config_name": "uniform_6bit",
+        "accuracy": 0.0,
+        "accuracy_change": 0.0,
+        "accuracy_change_pct": 0,
+        "precision_config": {
+          "input": 6,
+          "weight": 6,
+          "adc": 6
+        }
+      },
+      {
+        "config_name": "progressive_1",
+        "accuracy": 0.0,
+        "accuracy_change": 0.0,
+        "accuracy_change_pct": 0,
+        "precision_config": {
+          "input": 8,
+          "weight": 7,
+          "adc": 7
+        }
+      }
+    ]
+  }
+}

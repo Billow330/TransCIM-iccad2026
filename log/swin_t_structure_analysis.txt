@@ -1,0 +1,93 @@
+
+============================================================
+分析文件: NeuroSIM/NetWork_swin_t.csv
+============================================================
+
+总层数: 53
+
+按空间尺寸分组:
+  256x256: 1 层
+    Layer 1: 3 -> 96, kernel=4x4, stride=4
+  64x64: 4 层
+    Layer 4: 96 -> 384, kernel=1x1, stride=1
+    Layer 5: 384 -> 96, kernel=1x1, stride=1
+    Layer 8: 96 -> 384, kernel=1x1, stride=1
+    Layer 9: 384 -> 96, kernel=1x1, stride=1
+  32x32: 5 层
+    Layer 10: 384 -> 192, kernel=1x1, stride=1
+    Layer 13: 192 -> 768, kernel=1x1, stride=1
+    Layer 14: 768 -> 192, kernel=1x1, stride=1
+    Layer 17: 192 -> 768, kernel=1x1, stride=1
+    Layer 18: 768 -> 192, kernel=1x1, stride=1
+  16x16: 13 层
+  15x15: 24 层
+  8x8: 5 层
+    Layer 44: 1536 -> 768, kernel=1x1, stride=1
+    Layer 47: 768 -> 3072, kernel=1x1, stride=1
+    Layer 48: 3072 -> 768, kernel=1x1, stride=1
+    Layer 51: 768 -> 3072, kernel=1x1, stride=1
+    Layer 52: 3072 -> 768, kernel=1x1, stride=1
+  1x1: 1 层
+    Layer 53: 768 -> 1000, kernel=1x1, stride=1
+
+识别 Transformer 特征层:
+
+可能的 Attention 层 (1x1, C_out >= 384): 35
+  Layer 2: 15x15, 2 -> 512
+  Layer 4: 64x64, 96 -> 384
+  Layer 6: 15x15, 2 -> 512
+  Layer 8: 64x64, 96 -> 384
+  Layer 11: 15x15, 2 -> 512
+  Layer 13: 32x32, 192 -> 768
+  Layer 15: 15x15, 2 -> 512
+  Layer 17: 32x32, 192 -> 768
+  Layer 19: 16x16, 768 -> 384
+  Layer 20: 15x15, 2 -> 512
+
+可能的 FFN 层 (1x1, |C_out - C_in| > 100): 52
+  Layer 2: 15x15, 2 -> 512
+  Layer 3: 15x15, 512 -> 3
+  Layer 4: 64x64, 96 -> 384
+  Layer 5: 64x64, 384 -> 96
+  Layer 6: 15x15, 2 -> 512
+  Layer 7: 15x15, 512 -> 3
+  Layer 8: 64x64, 96 -> 384
+  Layer 9: 64x64, 384 -> 96
+  Layer 10: 32x32, 384 -> 192
+  Layer 11: 15x15, 2 -> 512
+
+层级结构分析 (Swin-T 特征):
+识别到 29 个 stage:
+  Stage 1: 256x256, 1 层
+  Stage 2: 15x15, 2 层
+  Stage 3: 64x64, 2 层
+  Stage 4: 15x15, 2 层
+  Stage 5: 64x64, 2 层
+  Stage 6: 32x32, 1 层
+  Stage 7: 15x15, 2 层
+  Stage 8: 32x32, 2 层
+  Stage 9: 15x15, 2 层
+  Stage 10: 32x32, 2 层
+  Stage 11: 16x16, 1 层
+  Stage 12: 15x15, 2 层
+  Stage 13: 16x16, 2 层
+  Stage 14: 15x15, 2 层
+  Stage 15: 16x16, 2 层
+  Stage 16: 15x15, 2 层
+  Stage 17: 16x16, 2 层
+  Stage 18: 15x15, 2 层
+  Stage 19: 16x16, 2 层
+  Stage 20: 15x15, 2 层
+  Stage 21: 16x16, 2 层
+  Stage 22: 15x15, 2 层
+  Stage 23: 16x16, 2 层
+  Stage 24: 8x8, 1 层
+  Stage 25: 15x15, 2 层
+  Stage 26: 8x8, 2 层
+  Stage 27: 15x15, 2 层
+  Stage 28: 8x8, 2 层
+  Stage 29: 1x1, 1 层
+
+============================================================
+分析完成
+============================================================

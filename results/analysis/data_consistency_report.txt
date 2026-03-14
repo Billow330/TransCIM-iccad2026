@@ -1,0 +1,33 @@
+================================================================================
+Data Consistency Report
+================================================================================
+
+1. Validation Accuracy Data
+--------------------------------------------------------------------------------
+
+2. PPA Metrics
+--------------------------------------------------------------------------------
+  Power: 4.8275500000000005 mW
+  Area: 280.008 mm²
+  Latency: 1.87269 ms
+  Energy Efficiency: 7.57166 TOPS/W
+  Throughput: 4.45541 TOPS
+  Compute Efficiency: 0.0159117 TOPS/mm²
+
+3. Numbers Found in Paper
+--------------------------------------------------------------------------------
+  Accuracy values: 49
+    Range: 0.10% - 95.31%
+  power: 1 values found
+  area: 1 values found
+  latency: 1 values found
+  tops_w: 1 values found
+  throughput: 3 values found
+  tops_mm2: 1 values found
+
+4. Consistency Check
+--------------------------------------------------------------------------------
+  ✅ All data files present
+  ✅ Data can be cross-referenced with paper
+
+================================================================================

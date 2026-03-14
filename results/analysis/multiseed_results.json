@@ -1,0 +1,166 @@
+{
+  "note": "Multi-seed validation, 10016 images/run",
+  "num_batches": 313,
+  "batch_size": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "configs": {
+    "baseline_swin": {
+      "seeds": [
+        {
+          "seed": 42,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 123,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 456,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 789,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 999,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        }
+      ],
+      "summary": {
+        "n_seeds": 5,
+        "n_ok": 0
+      }
+    },
+    "best_accuracy_swin": {
+      "seeds": [
+        {
+          "seed": 42,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 123,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 456,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 789,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 999,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        }
+      ],
+      "summary": {
+        "n_seeds": 5,
+        "n_ok": 0
+      }
+    },
+    "baseline_vit": {
+      "seeds": [
+        {
+          "seed": 42,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 123,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 456,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 789,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 999,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        }
+      ],
+      "summary": {
+        "n_seeds": 5,
+        "n_ok": 0
+      }
+    },
+    "optimized_vit": {
+      "seeds": [
+        {
+          "seed": 42,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 123,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 456,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 789,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        },
+        {
+          "seed": 999,
+          "acc1": null,
+          "acc5": null,
+          "success": false
+        }
+      ],
+      "summary": {
+        "n_seeds": 5,
+        "n_ok": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+config_id,model,use_architecture_mapping,use_mixed_precision_opt,use_attention_opt,precision_preset,accuracy_top1,latency_ms,energy_pj,throughput_tops,power_mw,traffic_scale,area_mm2,success
+baseline_swin,swin_t,0,0,0,balanced,96.88,1.87269,894196000.0,4.45541,4.8275500000000005,1.0,280.008,True
+best_accuracy_swin,swin_t,0,1,1,conservative,96.88,1.87269,894196000.0,4.45541,4.8275500000000005,1.0,280.008,True
+mapping_swin,swin_t,1,0,0,balanced,96.88,1.87269,894196000.0,4.45541,4.8275500000000005,0.85,280.008,True
+full_opt_swin,swin_t,1,1,1,balanced,96.88,1.87269,894196000.0,4.45541,4.8275500000000005,0.833,280.008,True
+baseline_vit,vit_b,0,0,0,balanced,84.38,,,,,1.0,,True
+optimized_vit,vit_b,0,0,0,,,,,,,0.9603999999999999,,False

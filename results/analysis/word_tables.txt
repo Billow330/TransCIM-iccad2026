@@ -1,0 +1,54 @@
+Word Tables for ICCAD 2026 Paper
+================================================================================
+
+These tables can be directly copied to Word.
+Format: IEEE three-line table format
+
+
+Table 1: 准确率和延迟对比
+
+| Architecture | Configuration | DSE (64 images) | Validated (1024 images) | Mean Latency (s) |
+|--------------|---------------|-----------------|-------------------------|------------------|
+| ViT-B        | Baseline      | 90.33%          | 90.23%                  | 47.81            |
+| ViT-B        | Optimized     | ~90%            | 89.45%                  | ~48              |
+| Swin-T       | Baseline      | 93.36%          | 91.31%                  | 28.98            |
+| Swin-T       | Optimized     | 95.31%*         | 90.33%                  | ~29              |
+
+*95.31% is artifact of small sample size (64 images)
+
+================================================================================
+
+Table 2: PPA数据表
+
+| Configuration | Power (mW) | Area (mm²) | Latency (ms) | Energy Efficiency (TOPS/W) | Throughput (TOPS) | Compute Efficiency (TOPS/mm²) |
+|---------------|------------|------------|--------------|----------------------------|-------------------|-------------------------------|
+| Baseline (Swin-T) | 4.83 | 280.01 | 1.87 | 7.57 | 4.46 | 0.016 |
+| Optimized (Swin-T) | 4.83* | 280.01* | 1.87* | 7.57* | 4.46* | 0.016* |
+| Baseline (ViT-B) | 4.83* | 280.01* | 1.87* | 7.57* | 4.46* | 0.016* |
+| Optimized (ViT-B) | 4.83* | 280.01* | 1.87* | 7.57* | 4.46* | 0.016* |
+
+*Hardware architecture identical to baseline; optimizations affect quantization precision only.
+
+================================================================================
+
+Table 3: 面积开销分析
+
+| Component | Area Overhead | Description |
+|-----------|---------------|-------------|
+| Architecture Detector | <0.1% | Simple logic for architecture detection |
+| Mapping Selector | <0.2% | Multiplexers for dataflow selection |
+| Precision Controller | <0.1% | Configuration registers |
+| Total | <0.5% | Compared to CIM array area |
+
+================================================================================
+
+Table 4: 设计空间探索结果汇总
+
+| Configuration Type | Count | Mean Accuracy | Mean Latency (s) | Best Accuracy |
+|-------------------|-------|--------------|------------------|---------------|
+| ViT-B | 32 | 90.33% | 47.81 | 90.33% |
+| Swin-T | 32 | 93.36% | 28.98 | 95.31%* |
+| Baseline | 16 | 89.06% | ~38 | 89.06% |
+| Optimized | 48 | 91.94% | ~35 | 95.31%* |
+
+*95.31% is artifact of small sample size (64 images)
